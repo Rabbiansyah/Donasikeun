@@ -53,7 +53,7 @@
             margin: 10px;
             border-radius: 0.75rem;
             overflow: hidden;
-            color: #ffdd00;
+            color: #fff;
             box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, rgba(33, 150, 243, .4);
             height: 7rem;
             letter-spacing: 0;
