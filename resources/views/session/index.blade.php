@@ -2,7 +2,7 @@
 @section('title', 'Login')
 
 @section('content')
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center mt-5">
         <form class="form" action="/session/login" method="POST">
             @csrf
             <div class="header">Masuk</div>
