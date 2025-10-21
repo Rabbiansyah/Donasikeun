@@ -32,7 +32,7 @@ Website ini adalah platform donasi yang dikembangkan menggunakan Laravel 11. Pro
 -   **Halaman List Donatur**: Pengguna dapat melihat list pengguna yang telah berdonasi.
 -   **Autentikasi Pengguna**: Registrasi dan login pengguna.
 -   **Dashboard Admin**: Panel untuk mengelola donasi dan pengguna.
--   **CRUD Donasi**: Pengelolaan data donasi (Create, Read, Update, Delete).ss
+-   **CRUD Donasi**: Pengelolaan data donasi (Create, Read, Update, Delete).s
 
 <!------------>
 </br>
