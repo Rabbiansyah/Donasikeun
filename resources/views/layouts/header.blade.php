@@ -131,10 +131,17 @@
         background-color: #0021b1;
     }
 
-    .navbar-nav .nav-link {
-        margin-right: 30px;
+.navbar-nav .nav-link {
+    color: white !important;        /* teks jadi putih */
+    font-weight: 500;               /* biar sedikit tebal */
+    transition: color 0.2s ease;    /* animasi halus */
+    margin-right: 30px;                /* jarak antar menu */
+    padding-top: 8px;
+}
 
-    }
+.navbar-nav .nav-link:hover {
+    color: #ffdd00 !important;      /* saat hover jadi kuning cerah (sesuai logo) */
+}
 
     .fa-right-to-bracket {
         font-size: 0.9em;
