@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #0021b1;">
         <a class="navbar-brand" href="/"><img src="/images/layout/logo-utama.png" width="320" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,23 +38,23 @@
                 </li>
 
                 @if (Auth::check())
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa-solid fa-user"></i> {{ ucwords(Auth::user()->username) }}
-                        </a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <i class="fa-solid fa-user"></i> {{ ucwords(Auth::user()->username) }}
+                    </a>
 
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            @if (Auth::user()->jenisAkun === 'admin')
-                                <a class="dropdown-item" href="/dashboard">Dashboard</a>
-                            @endif
-                            <a class="dropdown-item" href="/session/logout">Logout</a>
-                        </div>
-                    </li>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        @if (Auth::user()->jenisAkun === 'admin')
+                        <a class="dropdown-item" href="/dashboard">Dashboard</a>
+                        @endif
+                        <a class="dropdown-item" href="/session/logout">Logout</a>
+                    </div>
+                </li>
                 @else
-                    <li class="nav-item">
-                        <a class="nav-link" href="/session"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/session"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
+                </li>
                 @endif
             </ul>
         </div>
@@ -62,32 +62,32 @@
 
     {{-- MODAL PEMBERITAHUAN --}}
     @if (session('error'))
-        <div class="modal fade" id="errorModalCenter" tabindex="-1" role="dialog"
-            aria-labelledby="errorModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="errorModalCenterTitle"> {{ session('errorHeader') }}</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        {{ session('error') }}
-                    </div>
-                    <div class="modal-footer">
-                        {{-- @if (!Auth::check())
-                            <a href="/session" class="btn btn-primary">Login</a>
-                        @endif --}}
-                        @if (Auth::check() && Auth::user()->jenisAkun === 'guest')
-                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                        @else
-                            <a href="/session" class="btn btn-primary">Login</a>
-                        @endif
-                    </div>
+    <div class="modal fade" id="errorModalCenter" tabindex="-1" role="dialog" aria-labelledby="errorModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="errorModalCenterTitle"> {{ session('errorHeader') }}</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    {{ session('error') }}
+                </div>
+                <div class="modal-footer">
+                    {{-- @if (!Auth::check())
+                    <a href="/session" class="btn btn-primary">Login</a>
+                    @endif --}}
+                    @if (Auth::check() && Auth::user()->jenisAkun === 'guest')
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    @else
+                    <a href="/session" class="btn btn-primary">Login</a>
+                    @endif
                 </div>
             </div>
         </div>
+    </div>
     @endif
 
     {{-- AKHIR MODAL PEMBERITAHUAN --}}
@@ -99,7 +99,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             @if (session('error'))
                 $('#errorModalCenter').modal('show');
             @endif
