@@ -48,11 +48,11 @@
             position: relative;
             background-clip: border-box;
             background-color: #1e88e5;
-            background-image: linear-gradient(to top right, #1e88e5, #42a5f5);
+            background-image: linear-gradient(to top right, #0021b1, #42a5f5);
             margin: 10px;
             border-radius: 0.75rem;
             overflow: hidden;
-            color: #fff;
+            color: #ffdd00;
             box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, rgba(33, 150, 243, .4);
             height: 7rem;
             letter-spacing: 0;
@@ -108,7 +108,7 @@
             text-align: center;
             padding: .75rem 1.5rem;
             background-color: #1e88e5;
-            background-image: linear-gradient(to top right, #1e88e5, #42a5f5);
+            background-image: linear-gradient(to top right, #0021b1, #42a5f5);
             border-radius: .5rem;
             width: 100%;
             outline: 0;
