@@ -114,7 +114,7 @@
             height: 100%;
             width: 99%;
             border-radius: 12px;
-            background: #0021b;
+            background: #073abb;
         }
 
         .front {
