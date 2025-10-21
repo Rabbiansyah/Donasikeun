@@ -8,7 +8,6 @@
     "packages": [
         {
             "name": "brick/math",
-<<<<<<< HEAD
             "version": "0.12.1",
             "source": {
                 "type": "git",
@@ -28,27 +27,6 @@
                 "php-coveralls/php-coveralls": "^2.2",
                 "phpunit/phpunit": "^10.1",
                 "vimeo/psalm": "5.16.0"
-=======
-            "version": "0.14.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brick/math.git",
-                "reference": "113a8ee2656b882d4c3164fa31aa6e12cbb7aaa2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/113a8ee2656b882d4c3164fa31aa6e12cbb7aaa2",
-                "reference": "113a8ee2656b882d4c3164fa31aa6e12cbb7aaa2",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.2"
-            },
-            "require-dev": {
-                "php-coveralls/php-coveralls": "^2.2",
-                "phpstan/phpstan": "2.1.22",
-                "phpunit/phpunit": "^11.5"
->>>>>>> 1dfebfd (Test)
             },
             "type": "library",
             "autoload": {
@@ -78,11 +56,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/brick/math/tree/0.12.1"
-=======
-                "source": "https://github.com/brick/math/tree/0.14.0"
->>>>>>> 1dfebfd (Test)
             },
             "funding": [
                 {
@@ -90,11 +64,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2023-11-29T23:19:16+00:00"
-=======
-            "time": "2025-08-29T12:40:03+00:00"
->>>>>>> 1dfebfd (Test)
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -167,7 +137,6 @@
         },
         {
             "name": "dflydev/dot-access-data",
-<<<<<<< HEAD
             "version": "v3.0.2",
             "source": {
                 "type": "git",
@@ -178,18 +147,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/f41715465d65213d644d3141a6a93081be5d3549",
                 "reference": "f41715465d65213d644d3141a6a93081be5d3549",
-=======
-            "version": "v3.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dflydev/dflydev-dot-access-data.git",
-                "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/a23a2bf4f31d3518f3ecb38660c95715dfead60f",
-                "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f",
->>>>>>> 1dfebfd (Test)
                 "shasum": ""
             },
             "require": {
@@ -249,7 +206,6 @@
             ],
             "support": {
                 "issues": "https://github.com/dflydev/dflydev-dot-access-data/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.2"
             },
             "time": "2022-10-27T11:44:00+00:00"
@@ -266,53 +222,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/inflector/zipball/5817d0659c5b50c9b950feb9af7b9668e2c436bc",
                 "reference": "5817d0659c5b50c9b950feb9af7b9668e2c436bc",
-=======
-                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
-            },
-            "time": "2024-07-08T12:26:09+00:00"
-        },
-        {
-            "name": "doctrine/inflector",
-            "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/inflector.git",
-                "reference": "6d6c96277ea252fc1304627204c3d5e6e15faa3b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/6d6c96277ea252fc1304627204c3d5e6e15faa3b",
-                "reference": "6d6c96277ea252fc1304627204c3d5e6e15faa3b",
->>>>>>> 1dfebfd (Test)
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-<<<<<<< HEAD
-                "doctrine/coding-standard": "^11.0",
-                "phpstan/phpstan": "^1.8",
-                "phpstan/phpstan-phpunit": "^1.1",
-                "phpstan/phpstan-strict-rules": "^1.3",
-                "phpunit/phpunit": "^8.5 || ^9.5",
-                "vimeo/psalm": "^4.25 || ^5.4"
-=======
                 "doctrine/coding-standard": "^12.0 || ^13.0",
                 "phpstan/phpstan": "^1.12 || ^2.0",
                 "phpstan/phpstan-phpunit": "^1.4 || ^2.0",
                 "phpstan/phpstan-strict-rules": "^1.6 || ^2.0",
                 "phpunit/phpunit": "^8.5 || ^12.2"
->>>>>>> 1dfebfd (Test)
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-<<<<<<< HEAD
-                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
-=======
                     "Doctrine\\Inflector\\": "src"
->>>>>>> 1dfebfd (Test)
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -357,11 +282,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/inflector/issues",
-<<<<<<< HEAD
-                "source": "https://github.com/doctrine/inflector/tree/2.0.10"
-=======
                 "source": "https://github.com/doctrine/inflector/tree/2.1.0"
->>>>>>> 1dfebfd (Test)
             },
             "funding": [
                 {
@@ -377,11 +298,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2024-02-18T20:23:39+00:00"
-=======
-            "time": "2025-08-10T19:31:58+00:00"
->>>>>>> 1dfebfd (Test)
         },
         {
             "name": "doctrine/lexer",
@@ -462,7 +379,6 @@
         },
         {
             "name": "dragonmantank/cron-expression",
-<<<<<<< HEAD
             "version": "v3.3.3",
             "source": {
                 "type": "git",
@@ -473,18 +389,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/adfb1f505deb6384dc8b39804c5065dd3c8c8c0a",
                 "reference": "adfb1f505deb6384dc8b39804c5065dd3c8c8c0a",
-=======
-            "version": "v3.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dragonmantank/cron-expression.git",
-                "reference": "8c784d071debd117328803d86b2097615b457500"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/8c784d071debd117328803d86b2097615b457500",
-                "reference": "8c784d071debd117328803d86b2097615b457500",
->>>>>>> 1dfebfd (Test)
                 "shasum": ""
             },
             "require": {
@@ -497,12 +401,6 @@
             "require-dev": {
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^1.0",
-<<<<<<< HEAD
-                "phpstan/phpstan-webmozart-assert": "^1.0",
-                "phpunit/phpunit": "^7.0|^8.0|^9.0"
-            },
-            "type": "library",
-=======
                 "phpunit/phpunit": "^7.0|^8.0|^9.0"
             },
             "type": "library",
@@ -511,7 +409,6 @@
                     "dev-master": "3.x-dev"
                 }
             },
->>>>>>> 1dfebfd (Test)
             "autoload": {
                 "psr-4": {
                     "Cron\\": "src/Cron/"
@@ -535,11 +432,8 @@
             ],
             "support": {
                 "issues": "https://github.com/dragonmantank/cron-expression/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
-=======
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
->>>>>>> 1dfebfd (Test)
             },
             "funding": [
                 {
@@ -547,22 +441,6 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
-            "time": "2023-08-10T19:36:49+00:00"
-        },
-        {
-            "name": "egulias/email-validator",
-            "version": "4.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "ebaaf5be6c0286928352e054f2d5125608e5405e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/ebaaf5be6c0286928352e054f2d5125608e5405e",
-                "reference": "ebaaf5be6c0286928352e054f2d5125608e5405e",
-=======
             "time": "2024-10-09T13:47:03+00:00"
         },
         {
@@ -577,7 +455,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa",
                 "reference": "d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa",
->>>>>>> 1dfebfd (Test)
                 "shasum": ""
             },
             "require": {
@@ -635,11 +512,7 @@
                     "type": "github"
                 }
             ],
-<<<<<<< HEAD
             "time": "2023-10-06T06:47:41+00:00"
-=======
-            "time": "2025-03-06T22:45:56+00:00"
->>>>>>> 1dfebfd (Test)
         },
         {
             "name": "fruitcake/php-cors",
@@ -714,7 +587,6 @@
         },
         {
             "name": "graham-campbell/result-type",
-<<<<<<< HEAD
             "version": "v1.1.2",
             "source": {
                 "type": "git",
@@ -725,33 +597,14 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/fbd48bce38f73f8a4ec8583362e732e4095e5862",
                 "reference": "fbd48bce38f73f8a4ec8583362e732e4095e5862",
-=======
-            "version": "v1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/GrahamCampbell/Result-Type.git",
-                "reference": "3ba905c11371512af9d9bdd27d99b782216b6945"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/3ba905c11371512af9d9bdd27d99b782216b6945",
-                "reference": "3ba905c11371512af9d9bdd27d99b782216b6945",
->>>>>>> 1dfebfd (Test)
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
-<<<<<<< HEAD
                 "phpoption/phpoption": "^1.9.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^8.5.34 || ^9.6.13 || ^10.4.2"
-=======
-                "phpoption/phpoption": "^1.9.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
->>>>>>> 1dfebfd (Test)
             },
             "type": "library",
             "autoload": {
@@ -780,11 +633,7 @@
             ],
             "support": {
                 "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
-<<<<<<< HEAD
                 "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.2"
-=======
-                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.3"
->>>>>>> 1dfebfd (Test)
             },
             "funding": [
                 {
@@ -796,7 +645,6 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2023-11-12T22:16:48+00:00"
         },
         {
@@ -811,22 +659,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/guzzle/zipball/41042bc7ab002487b876a0683fc8dce04ddce104",
                 "reference": "41042bc7ab002487b876a0683fc8dce04ddce104",
-=======
-            "time": "2024-07-20T21:45:45+00:00"
-        },
-        {
-            "name": "guzzlehttp/guzzle",
-            "version": "7.10.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
-                "reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
->>>>>>> 1dfebfd (Test)
                 "shasum": ""
             },
             "require": {

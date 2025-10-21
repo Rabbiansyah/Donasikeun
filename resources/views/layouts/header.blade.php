@@ -127,7 +127,7 @@
         width: 250px;
         margin-left: 20px;
         margin-top: 3px;
-        margin-bottom: 3px;
+        margin-bottom: 5px;
         background-color: #0021b1;
     }
 
