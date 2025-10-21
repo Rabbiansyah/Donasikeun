@@ -15,6 +15,7 @@
             <p class="text-center">Belum punya akun? <a href="/session/register">Daftar disini</a></p>
         </form>
     </div>
+    
 
     <style>
         .form {
