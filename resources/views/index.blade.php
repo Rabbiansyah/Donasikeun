@@ -114,14 +114,14 @@
             height: 100%;
             width: 99%;
             border-radius: 12px;
-            background: #073abb;
+            background: #0021b;
         }
 
         .front {
             display: block;
             position: relative;
             border-radius: 12px;
-            background: #007bff;
+            background: #0021b1;
             padding: 16px 32px;
             color: white;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
