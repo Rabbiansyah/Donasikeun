@@ -105,7 +105,7 @@
         }
 
         a {
-            color: #0021b1;
+            color: #1e88e5;
             text-decoration: none;
         }
 
