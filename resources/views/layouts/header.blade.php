@@ -19,7 +19,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-        <a class="navbar-brand" href="/"><img src="/images/layout/main-logo.png" width="320" /></a>
+        <a class="navbar-brand" href="/"><img src="/images/layout/logo-utama.png" width="320" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -111,6 +111,7 @@
 
 <style>
     .navbar {
+        background-color: #0021b1;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
 
@@ -127,10 +128,12 @@
         margin-left: 20px;
         margin-top: 3px;
         margin-bottom: 3px;
+        background-color: #0021b1;
     }
 
     .navbar-nav .nav-link {
         margin-right: 30px;
+
     }
 
     .fa-right-to-bracket {
@@ -146,5 +149,6 @@
     .modal-content {
         border-radius: 12px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.096), 0 6px 20px rgba(0, 0, 0, 0.096);
+
     }
 </style>
