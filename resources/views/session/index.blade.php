@@ -10,7 +10,7 @@
                 <input name="username" placeholder="Username" class="input" type="text" required
                     value="{{ Session::get('username') }}">
                 <input name="password" placeholder="Password" class="input" type="password" required>
-                <button name="submit" type="submit" class="sigin-btn">Login</button>
+                <button name="submit" type="submit" class="sigin-btn">Logins</button>
             </div>
             <p class="text-center">Belum punya akun? <a href="/session/register">Daftar disini</a></p>
         </form>
